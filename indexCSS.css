@@ -1,159 +1,17 @@
-/*
-    Author     : Wei
-position:absolute; relative to parent
-position:relative; relative to defult position
-position:fixed; is a fixed position on the page even when page move
-*/
-body{
-    background: #F1F0D1;
-    font-family: serif,sans-serif;
-    font-size: 16px;
-    overflow: auto;
-    
+body {
+    background-color: #7b7b7b;
 }
-    #contact{
-        width: 100%;
-        height:60px;
-        background: #878E66;
-    }
-    #contact p{
-        text-align: right;
-        font-size: 12px;
-    }
-    #wrapper{
-        
-        margin: 0 auto;
-        width: 95%;
-        background: #FEF8E8;
-        border: 1px solid #878E66;
-        border-radius: 8px;
-        box-shadow: 10px 10px 5px #888888;
-    }
-    nav ul{
-        list-style: none;
-        margin: 0;
-        padding-left: 50px;
-    }
-    nav ul li{
-      
-       float: left;
-       border: 1px dashed #878E66;
-       width: 20%;
-       height: 15%;
-    }
-    nav ul li a{
-        background: #878E66;
-        display:block;
-        padding:5%,12%;
-        font-weight: bold;
-        font-size: 18px;
-        color: #F1F0D1;
-        text-align: center;
-    }
+h3{
+  text-align : center;
+}
 
-    header{
-        width: 96%;
-        min-height: 125px;
-        padding: 5px;
-        text-align: center;
-        
-    }
-    h3{
-        text-align: center;
-        padding-left: 1%;
-        color:#878E66;
-    }
-    a{
-    color:#cc0000;
-    text-decoration:none;
-    }
-    img{
-        text-align: center;
+div a{
+  margin-top: 10px;
+}
 
-        height:250px;
-        width:500px;
-    }
-  //  p:nth-child(2){
-     //   padding: 2%;
-     
-   // }
-    
-   .homeBanner img{
-       width: 85%;
-       
-       border-top: 1px solid #878E66;
-       border-bottom: 1px solid #878E66;
-       margin-bottom: 2%;
-   }
-   header img{
-      width: 100%
-   }
-   .main{
-      width: 55%;
-      float: left;
-      margin: -2% 1% 1% 1%;
-   }
-   .sideBar{
-       width: 40%;
-       float: right; 
-       margin: 1%;
-       text-align: center;
-   }
-   .space{
-       clear: both;
-   }
+div p {text-align:center}
 
-   footer{
-       background: #878E66;
-       width: 100%;
-       overflow: hidden;
-   }
-   footer p,footer h3{
-       color: #F1F0D1;
-   }
-   
-   footer p a{
-       color: #F1F0D1;
-   }
-   footer div img{
-       display:inline;
-       height: 50px;
-       width: 50px;
-   }
-   .t{
-       float: left;
-       margin: 0 auto;
-       width: 100%;
-       height: auto;
-       padding: 1%;
-   }
-   article h3 img{
-       display: inline;
-   }
-   section article{
-       display:block;
-       float:left;
-       margin: 5%;
-       width:20%;
-       
-       
-   }
-   section article img{
-       max-width: 400px;
-       margin: auto;
-       padding: auto;
-   }
-      .section{
-       width: 25%;
-       float: left;
-       display: inline;
-       margin:2% 2%;
-       text-align: center;
-   }
-   
-
-   @media screen and (max-width:470px){
-       body{
-           font-size: 13px;
-       }
-   }
+#footer {
+  height: 60px;
+  
+}
