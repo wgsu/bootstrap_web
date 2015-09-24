@@ -1,6 +1,4 @@
-body {
-    background-color: #7b7b7b;
-}
+
 h3{
   text-align : center;
 }
@@ -13,5 +11,5 @@ div p {text-align:center}
 
 #footer {
   height: 60px;
-  
+  background-color: #7b7b7b;
 }
